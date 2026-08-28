@@ -26,5 +26,19 @@ recovery.
 - Vivado XSIM simulation
 - RTL schematic analysis
 - FPGA floorplanning
+
+## Implementation Results
+
+- FPGA: Artix-7 XC7A100T
+- Board: Nexys A7-100T
+- Clock: 100 MHz
+- Total on-chip power: 0.349 W
+- Dynamic power: 0.257 W
+- Static power: 0.092 W
+- Junction temperature: 26.6 °C
+
+The design was successfully synthesized, simulated, implemented,
+and programmed onto the FPGA. Hardware behavior matched the
+simulation results.
 - On-chip power analysis
 - Hardware implementation and validation
